@@ -94,7 +94,7 @@ The physical edge architecture features an ESP32 microcontroller acting as a rea
 1. **Clone the Repository:**
 ```bash
    git clone https://github.com/ignaczy/iot-predictive-maintenance.git
-   cd your-repo-name
+   cd iot-predictive-maintenance
 ```
 
 2. **Configure Environment Variables:**
