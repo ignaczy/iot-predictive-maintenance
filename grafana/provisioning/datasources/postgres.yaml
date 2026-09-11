@@ -1,0 +1,15 @@
+apiVersion: 1
+
+datasources:
+  - name: PostgreSQL
+    type: postgres
+    access: proxy
+    url: db:5432
+    user: ${DB_USER}
+    secureJsonData:
+      password: ${DB_PASSWORD}
+    database: ${DB_NAME}
+    jsonData:
+      sslmode: "disable"
+      postgresVersion: 1500
+    isDefault: true

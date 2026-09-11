@@ -1,0 +1,14 @@
+.pio/
+.vscode/
+.idea/
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+.env
+secrets.h
+*.secrets.h
+
+*.pkl
